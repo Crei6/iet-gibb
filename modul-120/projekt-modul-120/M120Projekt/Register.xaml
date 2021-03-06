@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="M120Projekt.Register"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:M120Projekt"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <WrapPanel Margin="0 20 0 20">
+            <Button x:Name="btnNew" Content="Neu" Margin="0 0 4 0" Width="97" Click="New"></Button>
+            <Button x:Name="btnSave" Content="Speichern" Margin="0 0 4 0" Width="97" Click="Save"></Button>
+            <Button x:Name="btnCancel" Content="Abbrechen" Margin="0 0 4 0" Width="97" Click="Cancel"></Button>
+            <Button x:Name="btnDelete" Content="Löschen" Width="97" Click="Delete"></Button>
+        </WrapPanel>
+
+        <Label x:Name="lblOperatorName" Content="Operatorname"></Label>
+        <TextBox x:Name="txtOperatorName" TabIndex="1" LostFocus="txtOperatorName_LostFocus" TextChanged="TextChanged"></TextBox>
+        <Label x:Name="lblRealName" Content="Richtiger Name"></Label>
+        <TextBox x:Name="txtRealName" TabIndex="2" LostFocus="txtRealName_LostFocus" TextChanged="TextChanged"></TextBox>
+        <Label x:Name="lblAge" Content="Alter"></Label>
+        <TextBox x:Name="txtAge" TabIndex="3" LostFocus="txtAge_LostFocus" TextChanged="TextChanged"></TextBox>
+        <Label x:Name="lblReleaseDate" Content="Erscheinungsdatum"></Label>
+        <DatePicker x:Name="dpReleaseDate" TabIndex="4" SelectedDateChanged="dpReleaseDate_SelectedDateChanged"></DatePicker>
+        <Label Content="Position"></Label>
+        <ComboBox x:Name="cbPosition" TabIndex="5" SelectionChanged="cbPosition_SelectionChanged">
+            <ComboBoxItem Name="cbiAngriff" Content="Angriff" IsSelected="True"></ComboBoxItem>
+            <ComboBoxItem Name="cbiVerteidigung" Content="Verteidigung"></ComboBoxItem>
+        </ComboBox>
+        <Label Content="Rüstungspunkte"></Label>
+        <WrapPanel>
+            <RadioButton x:Name="rbtnArmorPoints1" Content="1" Margin="0 0 20 0" TabIndex="6" IsChecked="True" Click="rbtnArmorPoints1_Click"/>
+            <RadioButton x:Name="rbtnArmorPoints2" Content="2" Margin="0 0 20 0" TabIndex="7" IsChecked="False" Click="rbtnArmorPoints2_Click"></RadioButton>
+            <RadioButton x:Name="rbtnArmorPoints3" Content="3" Margin="0 0 20 0" TabIndex="8" IsChecked="False" Click="rbtnArmorPoints3_Click"></RadioButton>
+        </WrapPanel>
+        <Label Content="Geschwindigkeitspunkte"></Label>
+        <WrapPanel>
+            <RadioButton x:Name="rbtnSpeedPoints1" Content="1" Margin="0 0 20 0" TabIndex="9" IsChecked="False" Click="rbtnSpeedPoints1_Click"></RadioButton>
+            <RadioButton x:Name="rbtnSpeedPoints2" Content="2" Margin="0 0 20 0" TabIndex="10" IsChecked="False" Click="rbtnSpeedPoints2_Click"></RadioButton>
+            <RadioButton x:Name="rbtnSpeedPoints3" Content="3" Margin="0 0 20 0" TabIndex="11" IsChecked="True" Click="rbtnSpeedPoints3_Click"></RadioButton>
+        </WrapPanel>
+        <Label Content="Handelt es sich um einen Standardoperator?"></Label>
+        <WrapPanel>
+            <RadioButton x:Name="rbtnIsDefaultOperator" Content="Ja" Margin="0 0 20 0" TabIndex="12" IsChecked="False" Click="rbtnIsDefaultOperator_Click"></RadioButton>
+            <RadioButton x:Name="rbtnIsNotDefaultOperator" Content="Nein" Margin="0 0 20 0" TabIndex="13" IsChecked="True" Click="rbtnIsNotDefaultOperator_Click"></RadioButton>
+        </WrapPanel>
+    </StackPanel>
+</UserControl>

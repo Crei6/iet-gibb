@@ -1,0 +1,84 @@
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\M120Projekt.csprojResolveAssemblyReference.cache
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\MainWindow.g.cs
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\App.g.cs
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\M120Projekt_MarkupCompile.cache
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\M120Projekt_MarkupCompile.lref
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\bin\Debug\M120Projekt.exe.config
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\bin\Debug\M120Projekt.exe
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\bin\Debug\M120Projekt.pdb
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\bin\Debug\EntityFramework.dll
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\bin\Debug\EntityFramework.xml
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\MainWindow.baml
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\M120Projekt.g.resources
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\M120Projekt.Properties.Resources.resources
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\M120Projekt.csproj.GenerateResource.cache
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\M120Projekt.csproj.CoreCompileInputs.cache
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\M120Projekt.csproj.CopyComplete
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\M120Projekt.exe
+C:\Users\vmadmin\Documents\Visual Studio 2017\Projects\M120Projekt\M120Projekt\obj\Debug\M120Projekt.pdb
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\bin\Debug\M120Projekt.exe.config
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\bin\Debug\M120Projekt.exe
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\bin\Debug\M120Projekt.pdb
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\bin\Debug\EntityFramework.dll
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\bin\Debug\EntityFramework.xml
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\M120Projekt.csprojAssemblyReference.cache
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\MainWindow.g.cs
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\App.g.cs
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\M120Projekt_MarkupCompile.cache
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\M120Projekt_MarkupCompile.lref
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\MainWindow.baml
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\M120Projekt.g.resources
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\M120Projekt.Properties.Resources.resources
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\M120Projekt.csproj.GenerateResource.cache
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\M120Projekt.csproj.CoreCompileInputs.cache
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\M120Projekt.csproj.CopyComplete
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\M120Projekt.exe
+C:\Users\vmadmin\Desktop\M120\M120Projekt\M120Projekt\obj\Debug\M120Projekt.pdb
+C:\Projects\projekt-m120\M120Projekt\bin\Debug\M120Projekt.exe.config
+C:\Projects\projekt-m120\M120Projekt\bin\Debug\M120Projekt.exe
+C:\Projects\projekt-m120\M120Projekt\bin\Debug\M120Projekt.pdb
+C:\Projects\projekt-m120\M120Projekt\bin\Debug\EntityFramework.dll
+C:\Projects\projekt-m120\M120Projekt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\projekt-m120\M120Projekt\bin\Debug\EntityFramework.xml
+C:\Projects\projekt-m120\M120Projekt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\M120Projekt.csprojAssemblyReference.cache
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\MainWindow.g.cs
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\App.g.cs
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\M120Projekt_MarkupCompile.cache
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\M120Projekt_MarkupCompile.lref
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\MainWindow.baml
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\M120Projekt.g.resources
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\M120Projekt.Properties.Resources.resources
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\M120Projekt.csproj.GenerateResource.cache
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\M120Projekt.csproj.CoreCompileInputs.cache
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\M120Projekt.csproj.CopyComplete
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\M120Projekt.exe
+C:\Projects\projekt-m120\M120Projekt\obj\Debug\M120Projekt.pdb
+C:\Projects\120\projekt-m120\M120Projekt\bin\Debug\M120Projekt.exe.config
+C:\Projects\120\projekt-m120\M120Projekt\bin\Debug\M120Projekt.exe
+C:\Projects\120\projekt-m120\M120Projekt\bin\Debug\M120Projekt.pdb
+C:\Projects\120\projekt-m120\M120Projekt\bin\Debug\EntityFramework.dll
+C:\Projects\120\projekt-m120\M120Projekt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\120\projekt-m120\M120Projekt\bin\Debug\EntityFramework.xml
+C:\Projects\120\projekt-m120\M120Projekt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\M120Projekt.csprojAssemblyReference.cache
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\MainWindow.g.cs
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\App.g.cs
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\M120Projekt_MarkupCompile.cache
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\M120Projekt_MarkupCompile.lref
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\MainWindow.baml
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\M120Projekt.g.resources
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\M120Projekt.Properties.Resources.resources
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\M120Projekt.csproj.GenerateResource.cache
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\M120Projekt.csproj.CoreCompileInputs.cache
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\M120Projekt.csproj.CopyComplete
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\M120Projekt.exe
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\M120Projekt.pdb
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\Register.g.cs
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\Register.baml
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\OperatorList.g.cs
+C:\Projects\120\projekt-m120\M120Projekt\obj\Debug\OperatorList.baml
