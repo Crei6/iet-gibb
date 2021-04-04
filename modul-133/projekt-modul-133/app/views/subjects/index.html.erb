@@ -1,0 +1,16 @@
+<div class="container" style="margin-top: 100px">
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th>Fachgebiete</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <% @subjects.each do |s| %> 
+                <tr> 
+                    <td><%= link_to s.name, show_subject_path(s.id) %></td> 
+                </tr> 
+            <% end %> 
+        </tbody>
+    </table>
+</div>

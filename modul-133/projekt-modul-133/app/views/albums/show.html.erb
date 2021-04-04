@@ -1,0 +1,21 @@
+<div class="container" style="margin-top: 100px">
+    <h3><%= @album.band %> "<%= @album.title %>" (<%= @album.year %>)</h3>
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th>Nr.</th>
+                <th>Titel</th>
+                <th>Dauer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% @album.songs.each do |s| %> 
+                <tr> 
+                    <td><%= s.position %></td>
+                    <td><%= s.title %></td>
+                    <td><%= s.duration %></td>
+                </tr> 
+            <% end %> 
+        </tbody>
+    </table>
+</div>

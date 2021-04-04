@@ -1,0 +1,29 @@
+<div class="container" style="margin-top: 100px">
+    <%= form_with model: @album do |f| %>
+        <table class="table">
+            <thead class="thead-light">
+				<tr>
+					<th colspan="2">
+                        <%= @title %>
+                    </th>
+				</tr>
+			</thead>
+            <tbody>
+                <tr>
+                    <td><p>Band:</p></td>
+                    <td><%= f.text_field :band %></td>
+                </tr>
+                <tr>
+                    <td><p>Titel:</p></td>
+                    <td><%= f.text_field :title %></td>
+                </tr>
+                <tr>
+                    <td><p>Jahr:</p></td>
+                    <td><%= f.text_field :year %></td>
+                </tr>
+            </tbody>
+        </table>
+        <%= submit_tag "Album speichern" %>
+        <%= link_to "Abbrechen", albums_path %>
+  	<% end %>
+</div>

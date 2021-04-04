@@ -1,0 +1,39 @@
+<div class="container" style="margin-top: 100px">
+    <h2><%= @book.title %></h2>
+    <table class="table">
+        <tr>
+            <td>
+                <h4>Preis:</h4>
+            </td>
+            <td>
+                <h5>CHF <%= @book.price %></h5>
+            </td>
+       </tr>
+       <tr>
+            <td>
+                <h4>Subject:</h4>
+            </td>
+            <td>
+                <h5><%= link_to @book.subject.name, subjects_url %></h5>
+            </td>
+       </tr>
+       <tr>
+            <td>
+                <h4>Created Date:</h4>
+            </td>
+            <td>
+                <h5><%= @book.created_at %></h5>
+            </td>
+       </tr>
+       <tr>
+            <td>
+                <h4>Beschreibung:</h4>
+            </td>
+            <td>
+                <h5><%= @book.description %></h5>
+            </td>
+       </tr>
+    </table>
+    <br />
+    <%= link_to "Bücherliste", books_url %>
+</div>

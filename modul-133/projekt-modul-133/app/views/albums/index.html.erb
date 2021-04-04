@@ -1,0 +1,29 @@
+<div class="container" style="margin-top: 100px">
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th>Band</th>
+                <th>Titel</th>
+                <th>Jahr</th>
+                <th>Dauer</th>
+                <th colspan="3">Songs</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <% @albums.each do |a| %> 
+                <tr> 
+                    <td><%= a.band %></td>
+                    <td><%= link_to a.title, album_path(a.id) %></td>
+                    <td><%= a.year %></td>
+                    <td><%= a.duration %></td>
+                    <td><%= a.no_songs %></td>
+                    <td><%= link_to "Ändern", edit_album_path(a.id) %></td> 
+                    <td><%= link_to "Löschen", album_path(a.id), method: :delete, data: { confirm: "Sind Sie sicher?" } %></td> 
+                </tr> 
+            <% end %> 
+        </tbody>
+    </table>
+    <%= link_to "Neues Album erfassen", new_album_path %>
+    <br />
+    <%= link_to "Songs", songs_path %>
+</div>

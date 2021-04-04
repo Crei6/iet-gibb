@@ -1,0 +1,17 @@
+<div class="container" style="margin-top: 100px">
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th>Bücher im Fachgebiet</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <% @subject.books.each do |b| %> 
+                <tr> 
+                    <td><%= link_to b.title, show_book_path(b.id) %></td> 
+                </tr> 
+            <% end %> 
+        </tbody>
+    </table>
+    <%= link_to "Fachgebiete", subjects_path %>
+</div>

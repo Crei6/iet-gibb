@@ -1,0 +1,33 @@
+<div class="container" style="margin-top: 100px">
+    <%= form_with model: @book, url: {action: @action} do |f| %>
+        <table class="table">
+            <thead class="thead-light">
+				<tr>
+					<th colspan="2">
+                        <%= @title %>
+                    </th>
+				</tr>
+			</thead>
+            <tbody>
+                <tr>
+                    <td><p>Titel:</p></td>
+                    <td><%= f.text_field :title %></td>
+                </tr>
+                <tr>
+                    <td><p>Preis:</p></td>
+                    <td><%= f.text_field :price %></td>
+                </tr>
+                <tr>
+                    <td><p>Subject:</p></td>
+                    <td><%= f.collection_select :subject_id, @subjects, :id, :name %></td>
+                </tr>
+                <tr>
+                    <td><p>Description:</p></td>
+                    <td><%= f.text_area :description %></td>
+                </tr>
+            </tbody>
+        </table>
+        <%= submit_tag "Buch speichern" %>
+        <%= link_to "Abbrechen", books_path %>
+  	<% end %>
+</div>
