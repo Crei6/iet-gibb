@@ -1,1 +1,1 @@
-# Modul 226-1
+# 226-1 Klassenbasiert implementieren

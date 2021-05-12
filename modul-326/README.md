@@ -1,1 +1,1 @@
-# Modul 326
+# 326 Objektorientiert entwerfen

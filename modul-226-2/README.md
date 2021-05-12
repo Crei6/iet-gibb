@@ -1,1 +1,1 @@
-# Modul 226-2
+# 226-2 Objektorientiert implementieren

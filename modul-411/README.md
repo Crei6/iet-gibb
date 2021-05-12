@@ -1,1 +1,1 @@
-# Modul 411
+# 411 Datenstrukturen, Algorithmen
