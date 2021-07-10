@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 landing-left">
+      <%= render "shared/dummy_phone" %>
+    </div>
+    <div class="col-lg-6 landing-right text-center d-flex align-items-center">
+      <div>
+        <div class="form-login box">
+          <h3 class="core-sprite brand-name-img"></h3>
+          <h5 class="light-color"><strong>Sign up to see photos and <br/> videos from your friends.</strong></h5>
+          <hr>
+          
+          <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+            <!-- <%= render "devise/shared/error_messages", resource: resource %> -->
+            <div class="field form-group">
+              <%= f.text_field :name, class: "form-control", autofocus: true, autocomplete: "name", placeholder: "Your name" %>
+            </div>
+            <div class="field form-group">
+              <%= f.email_field :email, class: "form-control", autofocus: true, autocomplete: "email", placeholder: "Email" %>
+            </div>
+            <div class="field form-group">
+              <%= f.password_field :password, class: "form-control", autocomplete: "new-password", placeholder: "Password" %>
+            </div>
+            <div class="field form-group">
+              <%= f.password_field :password_confirmation, class: "form-control", autocomplete: "new-password", placeholder: "Password confirmation" %>
+            </div>
+            <div class="actions">
+              <%= f.submit "Sign up", class: "btn btn-primary" %>
+            </div>
+          <% end %>
+          
+          <br>
+          <p class="light-color">By signing up, you agree to our <br/> <strong>Term &amp; Privacy Policy.</strong></p>
+          </div>
+          <div class="redirect-links box"> 
+            <%= render "devise/shared/links"%> 
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <%= render "shared/devisemes" %>
+</div>

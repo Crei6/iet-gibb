@@ -1,0 +1,11 @@
+<strong>
+  <% if likes.size == 1 %>
+    <%= likes[0].user.name + " likes this" %>
+  <% elsif likes.size == 2 %>
+    <%= likes[0].user.name + " and " + likes[1].user.name + " like this" %>
+  <% elsif likes.size == 3 %>
+    <%= likes[0].user.name + ", " + likes[1].user.name + " and " + likes[2].user.name %>
+  <% elsif likes.size >= 4 %>
+    <%= likes.second_to_last.user.name + ", " + likes.last.user.name + " and " + likes.size - 2 + "likes this" %>
+  <% end %>
+</strong>
