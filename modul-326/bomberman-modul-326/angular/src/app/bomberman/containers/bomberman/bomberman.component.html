@@ -1,0 +1,14 @@
+<div class="container">
+  <mat-card>
+    <div class="content">
+      <app-login
+        (onLogin)="handleLogin($event)"
+        [isInputDisabled]="isGameStarted"
+      ></app-login>
+      <div class="game">
+        <app-game></app-game>
+      </div>
+      <app-notifications></app-notifications>
+    </div>
+  </mat-card>
+</div>

@@ -1,0 +1,9 @@
+<div class="container">
+  <mat-form-field>
+    <mat-label>Username</mat-label>
+    <input matInput [disabled]="isInputDisabled" type="text" [(ngModel)]="username">
+  </mat-form-field>
+  <button mat-raised-button aria-label="login" (click)="login()" color="primary" [disabled]="username == '' || username == null">
+    Login
+  </button>
+</div>
